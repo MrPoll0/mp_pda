@@ -1,0 +1,51 @@
+body {
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+	display: none;
+    overflow:hidden;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+#tablet {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1259px;
+	height: 708px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: url('tablet.png');
+}
+
+.header{
+
+	height: 100%;
+	width: 78%;
+	position: absolute;
+	top: 50%;
+	left: 63%;
+	transform: translate(-50%,-50%);
+
+}
+
+#boxfondo{
+	
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 90%;
+	height: 80%;
+	box-sizing: border-box;
+	background-color: rgb(0, 0, 0);
+	overflow: auto;
+}
+
